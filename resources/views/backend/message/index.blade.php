@@ -16,7 +16,7 @@
           <th scope="col">Tên</th>
           <th scope="col">Subject</th>
           <th scope="col">Ngày</th>
-          <th scope="col">Hành động</th>
+          <th scope="col">Tùy chọn</th>
         </tr>
       </thead>
       <tbody>

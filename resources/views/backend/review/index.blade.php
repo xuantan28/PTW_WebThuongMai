@@ -18,25 +18,25 @@
           <thead>
             <tr>
               <th>STT</th>
-              <th>Review Bởi</th>
+              <th>Người đánh giá</th>
               <th>Tiêu đề sản phẩm</th>
-              <th>Review</th>
+              <th>Nội dung</th>
               <th>Rate</th>
               <th>Ngày</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
             <tr>
               <th>STT</th>
-              <th>Review Bởi</th>
+              <th>Người đánh giá</th>
               <th>Tiêu đề sản phẩm</th>
-              <th>Review</th>
+              <th>Nội dung</th>
               <th>Rate</th>
               <th>Ngày</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

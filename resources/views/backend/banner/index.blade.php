@@ -21,9 +21,9 @@
               <th>STT</th>
               <th>Tiêu đề</th>
               <th>Slug</th>
-              <th>Photo</th>
+              <th>Ảnh</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -31,9 +31,9 @@
               <th>STT</th>
               <th>Tiêu đề</th>
               <th>Slug</th>
-              <th>Photo</th>
+              <th>Ảnh</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

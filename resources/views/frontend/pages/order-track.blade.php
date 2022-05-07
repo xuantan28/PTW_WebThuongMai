@@ -26,7 +26,7 @@
             <form class="row tracking_form my-4" action="{{route('product.track.order')}}" method="post" novalidate="novalidate">
               @csrf
                 <div class="col-md-8 form-group">
-                    <input type="text" class="form-control p-2"  name="order_number" placeholder="Enter your order number">
+                    <input type="text" class="form-control p-2"  name="order_number" placeholder="Nhập ID đơn hàng của bạn">
                 </div>
                 <div class="col-md-8 form-group">
                     <button type="submit" value="submit" class="btn submit_btn">Theo dõi đơn hàng</button>

@@ -79,7 +79,7 @@
 											@endphp
 											<div id="slider-range" data-min="0" data-max="{{$max}}"></div>
 											<div class="product_filter">
-											<button type="submit" class="filter_button">Filter</button>
+											<button type="submit" class="filter_button">Lọc</button>
 											<div class="label-input">
 												<span>Khoảng:</span>
 												<input style="" type="text" id="amount" readonly/>
@@ -158,7 +158,7 @@
 												</select>
 											</div>
 											<div class="single-shorter">
-												<label>Sort By :</label>
+												<label>Sắp xếp theo :</label>
 												<select class='sortBy' name='sortBy' onchange="this.form.submit();">
 													<option value="">Default</option>
 													<option value="title" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='title') selected @endif>Tên</option>
@@ -219,7 +219,7 @@
 														{{-- <p>{!! html_entity_decode($product->summary) !!}</p> --}}
 														</div>
 														<p class="des pt-2">{!! html_entity_decode($product->summary) !!}</p>
-														<a href="javascript:void(0)" class="btn cart" data-id="{{$product->id}}">Buy Now!</a>
+														<a href="javascript:void(0)" class="btn cart" data-id="{{$product->id}}">Mua Ngay!</a>
 													</div>
 												</div>
 											</div>

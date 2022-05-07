@@ -32,7 +32,7 @@
                                 <li><i class="ti-power-off"></i> <a href="{{route('user.logout')}}">Đăng Xuất</a></li>
 
                             @else
-                                <li><i class="ti-power-off"></i><a href="{{route('login.form')}}">Đăng Nhập /</a> <a href="{{route('register.form')}}">Register</a></li>
+                                <li><i class="ti-power-off"></i><a href="{{route('login.form')}}">Đăng Nhập /</a> <a href="{{route('register.form')}}">Đăng Ký</a></li>
                             @endauth
                         </ul>
                     </div>
@@ -73,7 +73,7 @@
                     <div class="search-bar-top">
                         <div class="search-bar">
                             <select>
-                                <option >Tất Cả Thể Loại</option>
+                                <option >Tất Cả</option>
                                 @foreach(Helper::getAllCategory() as $cat)
                                     <option>{{$cat->title}}</option>
                                 @endforeach

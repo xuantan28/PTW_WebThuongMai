@@ -19,7 +19,7 @@
             <th>Phí giao hàng</th>
             <th>Tổng cộng</th>
             <th>Trạng thái</th>
-            <th>Hành động</th>
+            <th>Tùy chọn</th>
         </tr>
       </thead>
       <tbody>
@@ -81,7 +81,7 @@
                       @php
                           $shipping_charge=DB::table('shippings')->where('id',$order->shipping_id)->pluck('price');
                       @endphp
-                        <td>Phí Shipping</td>
+                        <td>Phí vận chuyển</td>
                         <td> :${{$order->shipping->price}}</td>
                     </tr>
                     <tr>
@@ -102,7 +102,7 @@
 
           <div class="col-lg-6 col-lx-4">
             <div class="shipping-info">
-              <h4 class="text-center pb-4">THÔNG TIN SHIPPING</h4>
+              <h4 class="text-center pb-4">THÔNG TIN VẬN CHUYỂN</h4>
               <table class="table">
                     <tr class="">
                         <td>Tên đầy đủ</td>

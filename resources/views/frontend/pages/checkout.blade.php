@@ -30,8 +30,8 @@
 
                         <div class="col-lg-8 col-12">
                             <div class="checkout-form">
-                                <h2>Hoàn thành thủ tục thanh toán của ở đây</h2>
-                                <p>Hãy đăng ký để hoàn thành nhanh thủ tục thanh toán hơn</p>
+                                <h2>Hoàn thành thủ tục thanh toán của bạn ở đây</h2>
+                                <p>Hãy đăng ký để hoàn thành nhanh thủ tục thanh toán</p>
                                 <!-- Form -->
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
@@ -361,12 +361,12 @@
                                     <h2>TỔNG GIỎ HÀNG</h2>
                                     <div class="content">
                                         <ul>
-										    <li class="order_subtotal" data-price="{{Helper::totalCartPrice()}}">Tổng phụ giỏ hàng<span>${{number_format(Helper::totalCartPrice(),2)}}</span></li>
+										    <li class="order_subtotal" data-price="{{Helper::totalCartPrice()}}">Tổng giá sản phẩm<span>${{number_format(Helper::totalCartPrice(),2)}}</span></li>
                                             <li class="shipping">
-                                                Phí Shipping
+                                                Phí vận chuyển
                                                 @if(count(Helper::shipping())>0 && Helper::cartCount()>0)
                                                     <select name="shipping" class="nice-select">
-                                                        <option value="">Chọn địa chỉ</option>
+                                                        <option value="">Chọn đơn vị vận chuyển</option>
                                                         @foreach(Helper::shipping() as $shipping)
                                                         <option value="{{$shipping->id}}" class="shippingOption" data-price="{{$shipping->price}}">{{$shipping->type}}: ${{$shipping->price}}</option>
                                                         @endforeach

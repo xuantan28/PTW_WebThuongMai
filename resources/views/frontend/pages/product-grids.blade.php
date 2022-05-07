@@ -10,8 +10,8 @@
                 <div class="col-12">
                     <div class="bread-inner">
                         <ul class="bread-list">
-                            <li><a href="index1.html">Home<i class="ti-arrow-right"></i></a></li>
-                            <li class="active"><a href="blog-single.html">Shop Grid</a></li>
+                            <li><a href="index1.html">Trang chủ<i class="ti-arrow-right"></i></a></li>
+                            <li class="active"><a href="blog-single.html">Shop</a></li>
                         </ul>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                                 <!--/ End Single Widget -->
                                 <!-- Single Widget -->
                                 <div class="single-widget Category">
-                                    <h3 class="title">Brands</h3>
+                                    <h3 class="title">Thương hiệu</h3>
                                     <ul class="categor-list">
                                         @php
                                             $brands=DB::table('brands')->orderBy('title','ASC')->where('status','active')->get();
@@ -134,7 +134,7 @@
                                         <div class="single-shorter">
                                             <label>Xem :</label>
                                             <select class="show" name="show" onchange="this.form.submit();">
-                                                <option value="">Default</option>
+                                                <option value="">Mặc định</option>
                                                 <option value="9" @if(!empty($_GET['show']) && $_GET['show']=='9') selected @endif>09</option>
                                                 <option value="15" @if(!empty($_GET['show']) && $_GET['show']=='15') selected @endif>15</option>
                                                 <option value="21" @if(!empty($_GET['show']) && $_GET['show']=='21') selected @endif>21</option>
@@ -144,7 +144,7 @@
                                         <div class="single-shorter">
                                             <label>Lọc bằng :</label>
                                             <select class='sortBy' name='sortBy' onchange="this.form.submit();">
-                                                <option value="">Default</option>
+                                                <option value="">Mặc định</option>
                                                 <option value="title" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='title') selected @endif>Tên</option>
                                                 <option value="price" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='price') selected @endif>Giá</option>
                                                 <option value="Category" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='Category') selected @endif>Danh mục</option>

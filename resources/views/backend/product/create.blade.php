@@ -33,8 +33,8 @@
 
 
         <div class="form-group">
-          <label for="is_featured">Là tính năng</label><br>
-          <input type="checkbox" name='is_featured' id='is_featured' value='1' checked> Yes                        
+          <label for="is_featured">Có thịnh hành không?</label><br>
+          <input type="checkbox" name='is_featured' id='is_featured' value='1' checked> Có                        
         </div>
               {{-- {{$categories}} --}}
 

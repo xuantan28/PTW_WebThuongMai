@@ -59,7 +59,7 @@
                         <!-- Single Widget -->
                         <div class="single-widget search">
                             <form class="form" method="GET" action="{{route('blog.search')}}">
-                                <input type="text" placeholder="Search Here..." name="search">
+                                <input type="text" placeholder="Tìm kiếm tại đây..." name="search">
                                 <button class="button" type="sumbit"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
@@ -137,7 +137,7 @@
                         <div class="single-widget newsletter">
                             <h3 class="title">Bản tin</h3>
                             <div class="letter-inner">
-                                <h4>Subscribe nhận tin tức <br>  cập nhật mới nhất.</h4>
+                                <h4>Đăng kí để cập nhật <br>  tin tức mới nhất.</h4>
                                 <form method="POST" action="{{route('subscribe')}}" class="form-inner">
                                     @csrf
                                     <input type="email" name="email" placeholder="Nhập email">

@@ -38,36 +38,36 @@
 										<div class="col-lg-6 col-12">
 											<div class="form-group">
 												<label>Tên của bạn<span>*</span></label>
-												<input name="name" id="name" type="text" placeholder="Enter your name">
+												<input name="name" id="name" type="text" placeholder="Nhập tên của bạn">
 											</div>
 										</div>
 										<div class="col-lg-6 col-12">
 											<div class="form-group">
 												<label>Tiêu đề của bạn<span>*</span></label>
-												<input name="subject" type="text" id="subject" placeholder="Enter Subject">
+												<input name="subject" type="text" id="subject" placeholder="Nhập tiêu đề">
 											</div>
 										</div>
 										<div class="col-lg-6 col-12">
 											<div class="form-group">
 												<label>Email của bạn<span>*</span></label>
-												<input name="email" type="email" id="email" placeholder="Enter email address">
+												<input name="email" type="email" id="email" placeholder="Nhập email của bạn">
 											</div>	
 										</div>
 										<div class="col-lg-6 col-12">
 											<div class="form-group">
 												<label>Số điện thoại của bạn<span>*</span></label>
-												<input id="phone" name="phone" type="number" placeholder="Enter your phone">
+												<input id="phone" name="phone" type="number" placeholder="Nhập số điện thoại của bạn">
 											</div>	
 										</div>
 										<div class="col-12">
 											<div class="form-group message">
-												<label>Message của bạn<span>*</span></label>
-												<textarea name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
+												<label>Tin nhắn của bạn<span>*</span></label>
+												<textarea name="message" id="message" cols="30" rows="9" placeholder="Nhập nội dung tin nhắn"></textarea>
 											</div>
 										</div>
 										<div class="col-12">
 											<div class="form-group button">
-												<button type="submit" class="btn ">Gửi Message</button>
+												<button type="submit" class="btn ">Gửi tin nhắn</button>
 											</div>
 										</div>
 									</div>

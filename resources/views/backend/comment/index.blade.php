@@ -20,10 +20,10 @@
               <th>STT</th>
               <th>Tác giả</th>
               <th>Tiêu đề bài viết</th>
-              <th>Message</th>
+              <th>Nội dung</th>
               <th>Ngày</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -31,10 +31,10 @@
               <th>STT</th>
               <th>Tác giả</th>
               <th>Tiêu đề bài viết</th>
-              <th>Message</th>
+              <th>Nội dung</th>
               <th>Ngày</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </tfoot>
           <tbody>

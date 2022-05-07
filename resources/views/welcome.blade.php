@@ -73,7 +73,7 @@
                         <a href="{{ route('login') }}">Đăng Nhập</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Đăng Kí</a>
+                            <a href="{{ route('register') }}">Đăng Ký</a>
                         @endif
                     @endauth
                 </div>

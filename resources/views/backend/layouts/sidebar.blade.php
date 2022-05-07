@@ -102,13 +102,13 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#shippingCollapse" aria-expanded="true" aria-controls="shippingCollapse">
           <i class="fas fa-truck"></i>
-          <span>Shipping</span>
+          <span>Vận chuyển</span>
         </a>
         <div id="shippingCollapse" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Tùy chọn shipping</h6>
-            <a class="collapse-item" href="{{route('shipping.index')}}">Shipping</a>
-            <a class="collapse-item" href="{{route('shipping.create')}}">Thêm shipping</a>
+            <h6 class="collapse-header">Tùy chọn vận chuyển</h6>
+            <a class="collapse-item" href="{{route('shipping.index')}}">Đơn vị vận chuyển</a>
+            <a class="collapse-item" href="{{route('shipping.create')}}">Thêm đơn vị vận chuyển</a>
           </div>
         </div>
     </li>
@@ -125,7 +125,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{route('review.index')}}">
             <i class="fas fa-comments"></i>
-            <span>Các Review</span></a>
+            <span>Các đánh giá</span></a>
     </li>
     
 
@@ -186,7 +186,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{{route('comment.index')}}">
             <i class="fas fa-comments fa-chart-area"></i>
-            <span>Comment</span>
+            <span>Các bình luận</span>
         </a>
       </li>
 

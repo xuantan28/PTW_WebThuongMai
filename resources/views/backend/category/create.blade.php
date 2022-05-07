@@ -24,13 +24,13 @@
         </div>
 
         <div class="form-group">
-          <label for="is_parent">Là Parent</label><br>
+          <label for="is_parent">Có phải danh mục chính?</label><br>
           <input type="checkbox" name='is_parent' id='is_parent' value='1' checked> Có                        
         </div>
         {{-- {{$parent_cats}} --}}
 
         <div class="form-group d-none" id='parent_cat_div'>
-          <label for="parent_id">Danh mục Parent</label>
+          <label for="parent_id">Danh mục chính</label>
           <select name="parent_id" class="form-control">
               <option value="">--Chọn danh mục--</option>
               @foreach($parent_cats as $key=>$parent_cat)
@@ -40,7 +40,7 @@
         </div>
 
         <div class="form-group">
-          <label for="inputPhoto" class="col-form-label">Photo</label>
+          <label for="inputPhoto" class="col-form-label">Ảnh</label>
           <div class="input-group">
               <span class="input-group-btn">
                   <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary">

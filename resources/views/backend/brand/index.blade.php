@@ -22,7 +22,7 @@
               <th>Tiêu đề</th>
               <th>Slug</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -31,7 +31,7 @@
               <th>Tiêu đề</th>
               <th>Slug</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

@@ -19,7 +19,7 @@
             <th>Charge</th>
             <th>Tổng cộng</th>
             <th>Trạng thái</th>
-            <th>Hành động</th>
+            <th>Tùy chọn</th>
         </tr>
       </thead>
       <tbody>
@@ -79,7 +79,7 @@
                         <td> : {{$order->status}}</td>
                     </tr>
                     <tr>
-                        <td>Phí Shipping</td>
+                        <td>Phí vận chuyển</td>
                         <td> : $ {{number_format($order->delivery_charge,2)}}</td>
                     </tr>
                     <tr>
@@ -100,7 +100,7 @@
 
           <div class="col-lg-6 col-lx-4">
             <div class="shipping-info">
-              <h4 class="text-center pb-4">THÔNG TIN SHIPPING</h4>
+              <h4 class="text-center pb-4">THÔNG TIN VẬN CHUYỂN</h4>
               <table class="table">
                     <tr class="">
                         <td>Tên đầyy đủ</td>

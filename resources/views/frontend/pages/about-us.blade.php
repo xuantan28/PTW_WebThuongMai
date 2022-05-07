@@ -11,8 +11,8 @@
 				<div class="col-12">
 					<div class="bread-inner">
 						<ul class="bread-list">
-							<li><a href="index1.html">Home<i class="ti-arrow-right"></i></a></li>
-							<li class="active"><a href="blog-single.html">About</a></li>
+							<li><a href="index1.html">Trang chủ<i class="ti-arrow-right"></i></a></li>
+							<li class="active"><a href="blog-single.html">Về chúng tôi</a></li>
 						</ul>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 							@php
 								$settings=DB::table('settings')->get();
 							@endphp
-							<h3>Welcome To <span>Eshop</span></h3>
+							<h3>Chào mừng đến với <span>Eshop</span></h3>
 							<p>@foreach($settings as $data) {{$data->description}} @endforeach</p>
 							<div class="button">
 								<a href="{{route('blog')}}" class="btn">Blog</a>

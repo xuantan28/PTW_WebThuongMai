@@ -103,7 +103,7 @@
               <th>Số lượng</th>
               <th>Tổng cộng</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -115,7 +115,7 @@
               <th>Số lượng</th>
               <th>Tổng cộng</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

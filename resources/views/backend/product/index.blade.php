@@ -27,10 +27,10 @@
               <th>Size</th>
               <th>Tình trạng</th>
               <th>Thương hiệu</th>
-              <th>Stock</th>
+              <th>Hàng trong kho</th>
               <th>Hình ảnh</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -44,10 +44,10 @@
               <th>Size</th>
               <th>Tình trạng</th>
               <th>Thương hiệu</th>
-              <th>Stock</th>
+              <th>Hàng trong kho</th>
               <th>Hình ảnh</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </tfoot>
           <tbody>

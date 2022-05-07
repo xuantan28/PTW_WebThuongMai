@@ -25,7 +25,7 @@
               <th>Phí giao hàng</th>
               <th>Tổng số tiền</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -38,7 +38,7 @@
               <th>Phí giao hàng</th>
               <th>Tổng số tiền</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

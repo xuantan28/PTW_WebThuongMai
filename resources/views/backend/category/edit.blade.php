@@ -25,14 +25,14 @@
         </div>
 
         <div class="form-group">
-          <label for="is_parent">Là Parent</label><br>
+          <label for="is_parent">Danh mục chính</label><br>
           <input type="checkbox" name='is_parent' id='is_parent' value='{{$Category->is_parent}}' {{(($Category->is_parent==1)? 'checked' : '')}}> Có                        
         </div>
         {{-- {{$parent_cats}} --}}
         {{-- {{$Category}} --}}
 
       <div class="form-group {{(($Category->is_parent==1) ? 'd-none' : '')}}" id='parent_cat_div'>
-          <label for="parent_id">Danh mục Parent</label>
+          <label for="parent_id">Danh mục chính</label>
           <select name="parent_id" class="form-control">
               <option value="">--Chọn danh mục--</option>
               @foreach($parent_cats as $key=>$parent_cat)

@@ -221,7 +221,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shortcuts: 'Phím tắt',
         close: 'Đóng',
         textFormatting: 'Định dạng Văn bản',
-        action: 'Hành động',
+        action: 'Tùy chọn',
         paragraphFormatting: 'Định dạng',
         documentStyle: 'Kiểu văn bản',
         extraKeys: 'Extra keys'

@@ -25,7 +25,7 @@
               <th>Tác giả</th>
               <th>Photo</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -37,7 +37,7 @@
               <th>Tác giả</th>
               <th>Photo</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </tfoot>
           <tbody>

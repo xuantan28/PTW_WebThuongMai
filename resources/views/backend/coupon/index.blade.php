@@ -23,7 +23,7 @@
               <th>Loại</th>
               <th>Giá trị</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -33,7 +33,7 @@
               <th>Loại</th>
               <th>Giá trị</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

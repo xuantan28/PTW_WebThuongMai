@@ -20,11 +20,11 @@
               <th>STT</th>
               <th>Tên</th>
               <th>Email</th>
-              <th>Photo</th>
+              <th>Ảnh</th>
               <th>Ngày tham gia</th>
               <th>Vai trò</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
             </tr>
           </thead>
           <tfoot>
@@ -32,11 +32,11 @@
               <th>STT</th>
               <th>Tên</th>
               <th>Email</th>
-              <th>Photo</th>
+              <th>Ảnh</th>
               <th>Ngày tham gia</th>
               <th>Vai trò</th>
               <th>Trạng thái</th>
-              <th>Hành động</th>
+              <th>Tùy chọn</th>
               </tr>
           </tfoot>
           <tbody>

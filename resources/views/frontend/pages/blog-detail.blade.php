@@ -85,7 +85,7 @@
                                                 </div> --}}
                                                 <div class="col-12">
                                                     <div class="form-group  comment_form_body">
-                                                        <label>Message của bạn<span>*</span></label>
+                                                        <label>Tin nhắn của bạn<span>*</span></label>
                                                         <textarea name="comment" id="comment" rows="10" placeholder=""></textarea>
                                                         <input type="hidden" name="post_id" value="{{ $post->id }}" />
                                                         <input type="hidden" name="parent_id" id="parent_id" value="" />
@@ -183,7 +183,7 @@
                         <div class="single-widget newsletter">
                             <h3 class="title">Bản tin</h3>
                             <div class="letter-inner">
-                                <h4>Subscribe nhận tin tức <br>  cập nhật mới nhất.</h4>
+                                <h4>Đăng nhận để cập nhật <br> tin tức mới nhất.</h4>
                                 <form action="{{route('subscribe')}}" method="POST">
                                     @csrf
                                     <div class="form-inner">

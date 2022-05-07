@@ -19,7 +19,7 @@
             <th>Phí giao hàng</th>
             <th>Tổng tiền</th>
             <th>Trạng thái</th>
-            <th>Hành động</th>
+            <th>Tùy chọn</th>
         </tr>
       </thead>
       <tbody>
@@ -104,7 +104,7 @@
 
           <div class="col-lg-6 col-lx-4">
             <div class="shipping-info">
-              <h4 class="text-center pb-4">THÔNG TIN SHIPPING</h4>
+              <h4 class="text-center pb-4">THÔNG TIN VẬN CHUYỂN</h4>
               <table class="table">
                     <tr class="">
                         <td>Tên đầy đủ</td>

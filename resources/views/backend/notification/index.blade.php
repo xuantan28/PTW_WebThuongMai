@@ -16,7 +16,7 @@
           <th scope="col">#</th>
           <th scope="col">Thời gian</th>
           <th scope="col">Tiêu đề</th>
-          <th scope="col">Hành động</th>
+          <th scope="col">Tùy chọn</th>
         </tr>
       </thead>
       <tbody>

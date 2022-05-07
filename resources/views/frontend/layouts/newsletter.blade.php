@@ -12,7 +12,7 @@
                         <form action="{{route('subscribe')}}" method="post" class="newsletter-inner">
                             @csrf
                             <input name="email" placeholder="Địa chỉ emial của bạn" required="" type="email">
-                            <button class="btn" type="submit">Subscribe</button>
+                            <button class="btn" type="submit">Đăng ký</button>
                         </form>
                     </div>
                     <!-- End Newsletter Inner -->
