@@ -9,7 +9,7 @@
 					<div class="bread-inner">
 						<ul class="bread-list">
 							<li><a href="{{route('home')}}">Home<i class="ti-arrow-right"></i></a></li>
-							<li class="active"><a href="javascript:void(0);">Contact</a></li>
+							<li class="active"><a href="javascript:void(0);">Liên hệ</a></li>
 						</ul>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 										$settings=DB::table('settings')->get();
 									@endphp
 									<h4>Liên Hệ</h4>
-									<h3>Viết tin nhắn cho chúng tôi @auth @else<span style="font-size:12px;" class="text-danger">[You need to login first]</span>@endauth</h3>
+									<h3>Viết tin nhắn cho chúng tôi @auth @else<span style="font-size:12px;" class="text-danger">[Bạn cần đăng nhập trước]</span>@endauth</h3>
 								</div>
 								<form class="form-contact form contact_form" method="post" action="{{route('contact.store')}}" id="contactForm" novalidate="novalidate">
 									@csrf
@@ -61,13 +61,13 @@
 										</div>
 										<div class="col-12">
 											<div class="form-group message">
-												<label>Tin nhắn của bạn<span>*</span></label>
+												<label>Message của bạn<span>*</span></label>
 												<textarea name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
 											</div>
 										</div>
 										<div class="col-12">
 											<div class="form-group button">
-												<button type="submit" class="btn ">Gửi tin nhắn</button>
+												<button type="submit" class="btn ">Gửi Message</button>
 											</div>
 										</div>
 									</div>

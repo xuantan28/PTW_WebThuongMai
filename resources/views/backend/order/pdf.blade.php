@@ -76,25 +76,25 @@
     <div class="float-right site-address">
       <h4>{{env('APP_NAME')}}</h4>
       <p>{{env('APP_ADDRESS')}}</p>
-      <p>Phone: <a href="tel:{{env('APP_PHONE')}}">{{env('APP_PHONE')}}</a></p>
+      <p>Điện thoại: <a href="tel:{{env('APP_PHONE')}}">{{env('APP_PHONE')}}</a></p>
       <p>Email: <a href="mailto:{{env('APP_EMAIL')}}">{{env('APP_EMAIL')}}</a></p>
     </div>
     <div class="clearfix"></div>
   </div>
   <div class="invoice-description">
     <div class="invoice-left-top float-left">
-      <h6>Invoice to</h6>
+      <h6>Hoá đơn cho</h6>
        <h3>{{$order->first_name}} {{$order->last_name}}</h3>
        <div class="address">
         <p>
-          <strong>Country: </strong>
+          <strong>Quốc gia: </strong>
           {{$order->country}}
         </p>
         <p>
-          <strong>Address: </strong>
+          <strong>Địa chỉ: </strong>
           {{ $order->address1 }} OR {{ $order->address2}}
         </p>
-         <p><strong>Phone:</strong> {{ $order->phone }}</p>
+         <p><strong>Số điện thoại:</strong> {{ $order->phone }}</p>
          <p><strong>Email:</strong> {{ $order->email }}</p>
        </div>
     </div>
@@ -107,14 +107,14 @@
   </div>
   <section class="order_details pt-3">
     <div class="table-header">
-      <h5>Order Details</h5>
+      <h5>Chi tiết đơn hàng</h5>
     </div>
     <table class="table table-bordered table-stripe">
       <thead>
         <tr>
-          <th scope="col" class="col-6">Product</th>
-          <th scope="col" class="col-3">Quantity</th>
-          <th scope="col" class="col-3">Total</th>
+          <th scope="col" class="col-6">Sản phẩm</th>
+          <th scope="col" class="col-3">Số lượng</th>
+          <th scope="col" class="col-3">Tổng cộng</th>
         </tr>
       </thead>
       <tbody>
@@ -136,13 +136,13 @@
       <tfoot>
         <tr>
           <th scope="col" class="empty"></th>
-          <th scope="col" class="text-right">Subtotal:</th>
+          <th scope="col" class="text-right">Tổng phụ:</th>
           <th scope="col"> <span>${{number_format($order->sub_total,2)}}</span></th>
         </tr>
       {{-- @if(!empty($order->coupon))
         <tr>
           <th scope="col" class="empty"></th>
-          <th scope="col" class="text-right">Discount:</th>
+          <th scope="col" class="text-right">Giảm giá:</th>
           <th scope="col"><span>-{{$order->coupon->discount(Helper::orderPrice($order->id, $order->user->id))}}{{Helper::base_currency()}}</span></th>
         </tr>
       @endif --}}
@@ -156,7 +156,7 @@
         </tr>
         <tr>
           <th scope="col" class="empty"></th>
-          <th scope="col" class="text-right">Total:</th>
+          <th scope="col" class="text-right">Tổng cộng:</th>
           <th>
             <span>
                 ${{number_format($order->total_amount,2)}}
@@ -167,15 +167,15 @@
     </table>
   </section>
   <div class="thanks mt-3">
-    <h4>Thank you for your business !!</h4>
+    <h4>Cảm ơn bạn vì đã mua hàng!!</h4>
   </div>
   <div class="authority float-right mt-5">
     <p>-----------------------------------</p>
-    <h5>Authority Signature:</h5>
+    <h5>Chữ ký của người có thẩm quyền:</h5>
   </div>
   <div class="clearfix"></div>
 @else
-  <h5 class="text-danger">Invalid</h5>
+  <h5 class="text-danger">Không hợp lệ</h5>
 @endif
 </body>
 </html>

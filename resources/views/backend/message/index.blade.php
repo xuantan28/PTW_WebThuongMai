@@ -13,10 +13,10 @@
       <thead>
         <tr>
           <th scope="col">ID</th>
-          <th scope="col">Name</th>
+          <th scope="col">Tên</th>
           <th scope="col">Subject</th>
-          <th scope="col">Date</th>
-          <th scope="col">Action</th>
+          <th scope="col">Ngày</th>
+          <th scope="col">Hành động</th>
         </tr>
       </thead>
       <tbody>
@@ -44,7 +44,7 @@
       {{$messages->links()}}
     </nav>
     @else
-      <h2>Messages Empty!</h2>
+      <h2>Messages Trống!</h2>
     @endif
   </div>
 </div>
@@ -102,9 +102,9 @@
             // alert(dataID);
             e.preventDefault();
             swal({
-                  title: "Are you sure?",
-                  text: "Once deleted, you will not be able to recover this data!",
-                  icon: "warning",
+                    title: "Bạn có chắc không?",
+                    text: "Một khi xoá, bạn sẽ không thể hồi phục lại dữ liệu này!",
+                    icon: "Cảnh báo",
                   buttons: true,
                   dangerMode: true,
               })
@@ -112,7 +112,7 @@
                   if (willDelete) {
                     form.submit();
                   } else {
-                      swal("Your data is safe!");
+                      swal("Dữ liệu của bạn đã an toàn!");
                   }
               });
         })

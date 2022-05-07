@@ -22,10 +22,10 @@
               <th>Tên</th>
               <th>Email</th>
               <th>Số lượng</th>
-              <th>Charge</th>
+              <th>Phí giao hàng</th>
               <th>Tổng số tiền</th>
               <th>Trạng thái</th>
-              <th>Hoạt động</th>
+              <th>Hành động</th>
             </tr>
           </thead>
           <tfoot>
@@ -35,10 +35,10 @@
               <th>Tên</th>
               <th>Email</th>
               <th>Số lượng</th>
-              <th>Charge</th>
+              <th>Phí giao hàng</th>
               <th>Tổng số tiền</th>
               <th>Trạng thái</th>
-              <th>Hoạt động</th>
+              <th>Hành động</th>
               </tr>
           </tfoot>
           <tbody>
@@ -136,9 +136,9 @@
               // alert(dataID);
               e.preventDefault();
               swal({
-                    title: "Are you sure?",
-                    text: "Once deleted, you will not be able to recover this data!",
-                    icon: "warning",
+                    title: "Bạn có chắc không?",
+                    text: "Một khi xoá, bạn sẽ không thể hồi phục lại dữ liệu này!",
+                    icon: "Cảnh báo",
                     buttons: true,
                     dangerMode: true,
                 })
@@ -146,7 +146,7 @@
                     if (willDelete) {
                        form.submit();
                     } else {
-                        swal("Your data is safe!");
+                        swal("Dữ liệu của bạn đã an toàn!");
                     }
                 });
           })

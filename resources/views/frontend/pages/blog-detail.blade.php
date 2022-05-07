@@ -66,26 +66,26 @@
                             <div class="col-12 mt-4">
                                 <div class="reply">
                                     <div class="reply-head comment-form" id="commentFormContainer">
-                                        <h2 class="reply-title">Leave a Comment</h2>
+                                        <h2 class="reply-title">Để lại Comment</h2>
                                         <!-- Comment Form -->
                                         <form class="form comment_form" id="commentForm" action="{{route('post-comment.store',$post->slug)}}" method="POST">
                                             @csrf
                                             <div class="row">
                                                 {{-- <div class="col-lg-6 col-md-6 col-12">
                                                     <div class="form-group">
-                                                        <label>Your Name<span>*</span></label>
+                                                        <label>Tên của bạn<span>*</span></label>
                                                         <input type="text" name="name" placeholder="" required="required">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-12">
                                                     <div class="form-group">
-                                                        <label>Your Email<span>*</span></label>
+                                                        <label>Email của bạn<span>*</span></label>
                                                         <input type="email" name="email" placeholder="" required="required">
                                                     </div>
                                                 </div> --}}
                                                 <div class="col-12">
                                                     <div class="form-group  comment_form_body">
-                                                        <label>Your Message<span>*</span></label>
+                                                        <label>Message của bạn<span>*</span></label>
                                                         <textarea name="comment" id="comment" rows="10" placeholder=""></textarea>
                                                         <input type="hidden" name="post_id" value="{{ $post->id }}" />
                                                         <input type="hidden" name="parent_id" id="parent_id" value="" />
@@ -93,7 +93,7 @@
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="form-group button">
-                                                        <button type="submit" class="btn"><span class="comment_btn comment">Post Comment</span><span class="comment_btn reply" style="display: none;">Reply Comment</span></button>
+                                                        <button type="submit" class="btn"><span class="comment_btn comment">Đăng Comment</span><span class="comment_btn reply" style="display: none;">Reply Comment</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -105,7 +105,7 @@
 
                             @else
                             <p class="text-center p-5">
-                                You need to <a href="{{route('login.form')}}" style="color:rgb(54, 54, 204)">Login</a> OR <a style="color:blue" href="{{route('register.form')}}">Register</a> for comment.
+                                Bạn cần <a href="{{route('login.form')}}" style="color:rgb(54, 54, 204)">Đăng nhập</a> Hoặc <a style="color:blue" href="{{route('register.form')}}">Đăng ký</a> để comment.
 
                             </p>
 
@@ -128,14 +128,14 @@
                         <!-- Single Widget -->
                         <div class="single-widget search">
                             <form class="form" method="GET" action="{{route('blog.search')}}">
-                                <input type="text" placeholder="Search Here..." name="search">
+                                <input type="text" placeholder="Tìm kiếm..." name="search">
                                 <button class="button" type="sumbit"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget Category">
-                            <h3 class="title">Blog Categories</h3>
+                            <h3 class="title">Danh mục Blog</h3>
                             <ul class="categor-list">
                                 {{-- {{count(Helper::postCategoryList())}} --}}
                                 @foreach(Helper::postCategoryList('posts') as $cat)
@@ -146,7 +146,7 @@
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget recent-post">
-                            <h3 class="title">Recent post</h3>
+                            <h3 class="title">Bài viết gần đây</h3>
                             @foreach($recent_posts as $post)
                                 <!-- Single Post -->
                                 <div class="single-post">
@@ -181,14 +181,14 @@
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget newsletter">
-                            <h3 class="title">Newslatter</h3>
+                            <h3 class="title">Bản tin</h3>
                             <div class="letter-inner">
-                                <h4>Subscribe & get news <br> latest updates.</h4>
+                                <h4>Subscribe nhận tin tức <br>  cập nhật mới nhất.</h4>
                                 <form action="{{route('subscribe')}}" method="POST">
                                     @csrf
                                     <div class="form-inner">
-                                        <input type="email" name="email" placeholder="Enter your email">
-                                        <button type="submit" class="btn mt-2">Submit</button>
+                                        <input type="email" name="email" placeholder="Nhập email">
+                                        <button type="submit" class="btn mt-2">OK</button>
                                     </div>
                                 </form>
                             </div>

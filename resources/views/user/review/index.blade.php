@@ -17,26 +17,26 @@
         <table class="table table-bordered" id="order-dataTable" width="100%" cellspacing="0">
           <thead>
             <tr>
-              <th>S.N.</th>
-              <th>Review By</th>
-              <th>Product Title</th>
+              <th>STT</th>
+              <th>Review Bởi</th>
+              <th>Tiêu đề sản phẩm</th>
               <th>Review</th>
               <th>Rate</th>
-              <th>Date</th>
-              <th>Status</th>
-              <th>Action</th>
+              <th>Ngày</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
             </tr>
           </thead>
           <tfoot>
             <tr>
-              <th>S.N.</th>
-              <th>Review By</th>
-              <th>Product Title</th>
+              <th>STT</th>
+              <th>Review Bởi</th>
+              <th>Tiêu đề sản phẩm</th>
               <th>Review</th>
               <th>Rate</th>
-              <th>Date</th>
-              <th>Status</th>
-              <th>Action</th>
+              <th>Ngày</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
               </tr>
           </tfoot>
           <tbody>
@@ -70,7 +70,7 @@
                         <form method="POST" action="{{route('user.productreview.delete',[$review->id])}}">
                           @csrf
                           @method('delete')
-                              <button class="btn btn-danger btn-sm dltBtn" data-id={{$review->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fas fa-trash-alt"></i></button>
+                              <button class="btn btn-danger btn-sm dltBtn" data-id={{$review->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Xoá"><i class="fas fa-trash-alt"></i></button>
                         </form>
                     </td>
                 </tr>
@@ -135,9 +135,9 @@
               // alert(dataID);
               e.preventDefault();
               swal({
-                    title: "Are you sure?",
-                    text: "Once deleted, you will not be able to recover this data!",
-                    icon: "warning",
+                    title: "Bạn có chắc không?",
+                    text: "Một khi xoá, bạn sẽ không thể hồi phục lại dữ liệu này!",
+                    icon: "Cảnh báo",
                     buttons: true,
                     dangerMode: true,
                 })
@@ -145,7 +145,7 @@
                     if (willDelete) {
                        form.submit();
                     } else {
-                        swal("Your data is safe!");
+                        swal("Dữ liệu của bạn đã an toàn!");
                     }
                 });
           })

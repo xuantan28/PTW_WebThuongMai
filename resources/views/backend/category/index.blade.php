@@ -9,8 +9,8 @@
          </div>
      </div>
     <div class="card-header py-3">
-      <h6 class="m-0 font-weight-bold text-primary float-left">Category Lists</h6>
-      <a href="{{route('Category.create')}}" class="btn btn-primary btn-sm float-right" data-toggle="tooltip" data-placement="bottom" title="Add User"><i class="fas fa-plus"></i> Add Category</a>
+      <h6 class="m-0 font-weight-bold text-primary float-left">Danh sách danh mục</h6>
+      <a href="{{route('Category.create')}}" class="btn btn-primary btn-sm float-right" data-toggle="tooltip" data-placement="bottom" title="Add User"><i class="fas fa-plus"></i> Thêm danh mục</a>
     </div>
     <div class="card-body">
       <div class="table-responsive">
@@ -18,26 +18,26 @@
         <table class="table table-bordered" id="banner-dataTable" width="100%" cellspacing="0">
           <thead>
             <tr>
-              <th>S.N.</th>
-              <th>Title</th>
+              <th>STT</th>
+              <th>Tiêu đề</th>
               <th>Slug</th>
-              <th>Is Parent</th>
-              <th>Parent Category</th>
+              <th>Là Parent</th>
+              <th>Danh mục Parent</th>
               <th>Photo</th>
-              <th>Status</th>
-              <th>Action</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
             </tr>
           </thead>
           <tfoot>
             <tr>
-              <th>S.N.</th>
-              <th>Title</th>
+              <th>STT</th>
+              <th>Tiêu đề</th>
               <th>Slug</th>
-              <th>Is Parent</th>
-              <th>Parent Category</th>
+              <th>Là Parent</th>
+              <th>Danh mục Parent</th>
               <th>Photo</th>
-              <th>Status</th>
-              <th>Action</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
             </tr>
           </tfoot>
           <tbody>
@@ -49,7 +49,7 @@
                     <td>{{$Category->id}}</td>
                     <td>{{$Category->title}}</td>
                     <td>{{$Category->slug}}</td>
-                    <td>{{(($Category->is_parent==1)? 'Yes': 'No')}}</td>
+                    <td>{{(($Category->is_parent==1)? 'Có': 'Không')}}</td>
                     <td>
                         {{$Category->parent_info->title ?? ''}}
                     </td>
@@ -72,7 +72,7 @@
                     <form method="POST" action="{{route('Category.destroy',[$Category->id])}}">
                       @csrf
                       @method('delete')
-                          <button class="btn btn-danger btn-sm dltBtn" data-id={{$Category->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fas fa-trash-alt"></i></button>
+                          <button class="btn btn-danger btn-sm dltBtn" data-id={{$Category->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Xoá"><i class="fas fa-trash-alt"></i></button>
                         </form>
                     </td>
                 </tr>
@@ -81,7 +81,7 @@
         </table>
         <span style="float:right">{{$categories->links()}}</span>
         @else
-          <h6 class="text-center">No Categories found!!! Please create Category</h6>
+          <h6 class="text-center">Không tìm thấy danh mục!!! Hãy tạo thêm danh mục</h6>
         @endif
       </div>
     </div>
@@ -137,9 +137,9 @@
               // alert(dataID);
               e.preventDefault();
               swal({
-                    title: "Are you sure?",
-                    text: "Once deleted, you will not be able to recover this data!",
-                    icon: "warning",
+                    title: "Bạn có chắc không?",
+                    text: "Một khi xoá, bạn sẽ không thể hồi phục lại dữ liệu này!",
+                    icon: "Cảnh báo",
                     buttons: true,
                     dangerMode: true,
                 })
@@ -147,7 +147,7 @@
                     if (willDelete) {
                        form.submit();
                     } else {
-                        swal("Your data is safe!");
+                        swal("Dữ liệu của bạn đã an toàn!");
                     }
                 });
           })

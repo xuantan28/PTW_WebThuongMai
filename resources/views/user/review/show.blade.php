@@ -11,15 +11,15 @@
     <table class="table table-striped table-hover">
       <thead>
         <tr>
-            <th>S.N.</th>
-            <th>Order No.</th>
-            <th>Name</th>
+            <th>STT</th>
+            <th>ID đơn hàng</th>
+            <th>Tên</th>
             <th>Email</th>
-            <th>Quantity</th>
+            <th>Số lượng</th>
             <th>Charge</th>
-            <th>Total Amount</th>
-            <th>Status</th>
-            <th>Action</th>
+            <th>Tổng cộng</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
         </tr>
       </thead>
       <tbody>
@@ -47,7 +47,7 @@
                 <form method="POST" action="{{route('order.destroy',[$order->id])}}">
                   @csrf 
                   @method('delete')
-                      <button class="btn btn-danger btn-sm dltBtn" data-id={{$order->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fas fa-trash-alt"></i></button>
+                      <button class="btn btn-danger btn-sm dltBtn" data-id={{$order->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Xoá"><i class="fas fa-trash-alt"></i></button>
                 </form>
             </td>
           
@@ -60,38 +60,38 @@
         <div class="row">
           <div class="col-lg-6 col-lx-4">
             <div class="order-info">
-              <h4 class="text-center pb-4">ORDER INFORMATION</h4>
+              <h4 class="text-center pb-4">THÔN TIN ĐƠN HÀNG</h4>
               <table class="table">
                     <tr class="">
-                        <td>Order Number</td>
+                        <td>ID đơn hàng</td>
                         <td> : {{$order->cart_id}}</td>
                     </tr>
                     <tr>
-                        <td>Order Date</td>
+                        <td>Ngày đặt</td>
                         <td> : {{$order->created_at->diffForHumans()}}</td>
                     </tr>
                     <tr>
-                        <td>Quantity</td>
+                        <td>Số lượng</td>
                         <td> : {{$order->quantity}}</td>
                     </tr>
                     <tr>
-                        <td>Order Status</td>
+                        <td>Tình trạng đơn hàng</td>
                         <td> : {{$order->status}}</td>
                     </tr>
                     <tr>
-                        <td>Shipping Charge</td>
+                        <td>Phí Shipping</td>
                         <td> : $ {{number_format($order->delivery_charge,2)}}</td>
                     </tr>
                     <tr>
-                        <td>Total Amount</td>
+                        <td>Tổng cộng</td>
                         <td> : $ {{number_format($order->total_amount,2)}}</td>
                     </tr>
                     <tr>
-                        <td>Payment Method</td>
+                        <td>Phương thức thanh toán</td>
                         <td> : </td>
                     </tr>
                     <tr>
-                        <td>Payment Status</td>
+                        <td>Trạng thái thanh toán</td>
                         <td> : </td>
                     </tr>
               </table>
@@ -100,10 +100,10 @@
 
           <div class="col-lg-6 col-lx-4">
             <div class="shipping-info">
-              <h4 class="text-center pb-4">SHIPPING INFORMATION</h4>
+              <h4 class="text-center pb-4">THÔNG TIN SHIPPING</h4>
               <table class="table">
                     <tr class="">
-                        <td>Full Name</td>
+                        <td>Tên đầyy đủ</td>
                         <td> : {{$order->first_name}} {{$order->last_name}}</td>
                     </tr>
                     <tr>
@@ -111,15 +111,15 @@
                         <td> : {{$order->email}}</td>
                     </tr>
                     <tr>
-                        <td>Phone No.</td>
+                        <td>Điện thoại</td>
                         <td> : {{$order->phone}}</td>
                     </tr>
                     <tr>
-                        <td>Address</td>
+                        <td>Địa chỉ</td>
                         <td> : {{$order->address1}}, {{$order->address2}}</td>
                     </tr>
                     <tr>
-                        <td>Country</td>
+                        <td>Quốc gia</td>
                         <td> : {{$order->country}}</td>
                     </tr>
                     <tr>

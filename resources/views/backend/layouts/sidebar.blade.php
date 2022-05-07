@@ -37,13 +37,13 @@
     <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         <i class="fas fa-image"></i>
-        <span>Banners</span>
+        <span>Banner</span>
       </a>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">Tùy chọn Banner</h6>
-          <a class="collapse-item" href="{{route('banner.index')}}">Banners</a>
-          <a class="collapse-item" href="{{route('banner.create')}}">Thêm Banners</a>
+          <a class="collapse-item" href="{{route('banner.index')}}">Banner</a>
+          <a class="collapse-item" href="{{route('banner.create')}}">Thêm Banner</a>
         </div>
       </div>
     </li>
@@ -78,7 +78,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Tùy chọn sản phẩm</h6>
             <a class="collapse-item" href="{{route('product.index')}}">Các sản phẩm</a>
-            <a class="collapse-item" href="{{route('product.create')}}">Thâm sản phẩm</a>
+            <a class="collapse-item" href="{{route('product.create')}}">Thêm sản phẩm</a>
           </div>
         </div>
     </li>
@@ -102,13 +102,13 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#shippingCollapse" aria-expanded="true" aria-controls="shippingCollapse">
           <i class="fas fa-truck"></i>
-          <span>Đơn vị vận chuyển</span>
+          <span>Shipping</span>
         </a>
         <div id="shippingCollapse" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Tùy chọn vận chuyển</h6>
-            <a class="collapse-item" href="{{route('shipping.index')}}">Đơn vị vận chuyển</a>
-            <a class="collapse-item" href="{{route('shipping.create')}}">Thêm đơn vị vận chuyển</a>
+            <h6 class="collapse-header">Tùy chọn shipping</h6>
+            <a class="collapse-item" href="{{route('shipping.index')}}">Shipping</a>
+            <a class="collapse-item" href="{{route('shipping.create')}}">Thêm shipping</a>
           </div>
         </div>
     </li>
@@ -117,7 +117,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{route('order.index')}}">
             <i class="fas fa-hammer fa-chart-area"></i>
-            <span>Khác</span>
+            <span>Đơn hàng</span>
         </a>
     </li>
 
@@ -125,7 +125,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{route('review.index')}}">
             <i class="fas fa-comments"></i>
-            <span>Các đánh giá</span></a>
+            <span>Các Review</span></a>
     </li>
     
 
@@ -186,7 +186,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{{route('comment.index')}}">
             <i class="fas fa-comments fa-chart-area"></i>
-            <span>Bình luận</span>
+            <span>Comment</span>
         </a>
       </li>
 

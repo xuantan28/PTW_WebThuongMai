@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title','Cart Page')
+@section('title','Giỏ hàng')
 @section('main-content')
 	<!-- Breadcrumbs -->
 	<div class="breadcrumbs">
@@ -125,7 +125,7 @@
 										<li class="order_subtotal" data-price="{{Helper::totalCartPrice()}}">Tổng tiền của giỏ hàng<span>${{number_format(Helper::totalCartPrice(),2)}}</span></li>
 
 										@if(session()->has('coupon'))
-										<li class="coupon_price" data-price="{{Session::get('coupon')['value']}}">You Save<span>${{number_format(Session::get('coupon')['value'],2)}}</span></li>
+										<li class="coupon_price" data-price="{{Session::get('coupon')['value']}}">Bạn tiết kiệm được<span>${{number_format(Session::get('coupon')['value'],2)}}</span></li>
 										@endif
 										@php
 											$total_amount=Helper::totalCartPrice();
@@ -134,7 +134,7 @@
 											}
 										@endphp
 										@if(session()->has('coupon'))
-											<li class="last" id="order_total_price">Số tiền bạn hanh toán<span>${{number_format($total_amount,2)}}</span></li>
+											<li class="last" id="order_total_price">Số tiền bạn thanh toán<span>${{number_format($total_amount,2)}}</span></li>
 										@else
 											<li class="last" id="order_total_price">Số tiền bạn thanh toán<span>${{number_format($total_amount,2)}}</span></li>
 										@endif

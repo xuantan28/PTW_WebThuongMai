@@ -1,6 +1,6 @@
 @extends('backend.layouts.master')
 
-@section('title','Admin Profile')
+@section('title','Hồ sơ Admin')
 
 @section('main-content')
 
@@ -55,7 +55,7 @@
                       </div>
               
                       <div class="form-group">
-                      <label for="inputPhoto" class="col-form-label">Ảnh</label>
+                      <label for="inputPhoto" class="col-form-label">Photo</label>
                       <div class="input-group">
                           <span class="input-group-btn">
                               <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary">
@@ -71,7 +71,7 @@
                       <div class="form-group">
                           <label for="role" class="col-form-label">Vai trò</label>
                           <select name="role" class="form-control">
-                              <option value="">-----Select Role-----</option>
+                              <option value="">-----Chọn vai trò-----</option>
                                   <option value="admin" {{(($profile->role=='admin')? 'selected' : '')}}>Admin</option>
                                   <option value="user" {{(($profile->role=='user')? 'selected' : '')}}>Người dùng</option>
                           </select>

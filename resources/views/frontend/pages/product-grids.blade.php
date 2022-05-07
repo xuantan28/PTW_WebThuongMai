@@ -30,7 +30,7 @@
                         <div class="shop-sidebar">
                                 <!-- Single Widget -->
                                 <div class="single-widget Category">
-                                    <h3 class="title">Categories</h3>
+                                    <h3 class="title">Danh mục</h3>
                                     <ul class="categor-list">
 										@php
 											// $Category = new Category();
@@ -63,7 +63,7 @@
                                 <!--/ End Single Widget -->
                                 <!-- Shop By Price -->
                                     <div class="single-widget range">
-                                        <h3 class="title">Shop by Price</h3>
+                                        <h3 class="title">Mua theo giá</h3>
                                         <div class="price-filter">
                                             <div class="price-filter-inner">
                                                 @php
@@ -72,9 +72,9 @@
                                                 @endphp
                                                 <div id="slider-range" data-min="0" data-max="{{$max}}"></div>
                                                 <div class="product_filter">
-                                                <button type="submit" class="filter_button">Filter</button>
+                                                <button type="submit" class="filter_button">Lọc</button>
                                                 <div class="label-input">
-                                                    <span>Range:</span>
+                                                    <span>Khoảng:</span>
                                                     <input style="" type="text" id="amount" readonly/>
                                                     <input type="hidden" name="price_range" id="price_range" value="@if(!empty($_GET['price'])){{$_GET['price']}}@endif"/>
                                                 </div>
@@ -86,7 +86,7 @@
                                     <!--/ End Shop By Price -->
                                 <!-- Single Widget -->
                                 <div class="single-widget recent-post">
-                                    <h3 class="title">Recent post</h3>
+                                    <h3 class="title">Bài viết gần đây</h3>
                                     {{-- {{dd($recent_products)}} --}}
                                     @foreach($recent_products as $product)
                                         <!-- Single Post -->
@@ -132,7 +132,7 @@
                                 <div class="shop-top">
                                     <div class="shop-shorter">
                                         <div class="single-shorter">
-                                            <label>Show :</label>
+                                            <label>Xem :</label>
                                             <select class="show" name="show" onchange="this.form.submit();">
                                                 <option value="">Default</option>
                                                 <option value="9" @if(!empty($_GET['show']) && $_GET['show']=='9') selected @endif>09</option>
@@ -142,13 +142,13 @@
                                             </select>
                                         </div>
                                         <div class="single-shorter">
-                                            <label>Sort By :</label>
+                                            <label>Lọc bằng :</label>
                                             <select class='sortBy' name='sortBy' onchange="this.form.submit();">
                                                 <option value="">Default</option>
-                                                <option value="title" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='title') selected @endif>Name</option>
-                                                <option value="price" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='price') selected @endif>Price</option>
-                                                <option value="Category" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='Category') selected @endif>Category</option>
-                                                <option value="brand" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='brand') selected @endif>Brand</option>
+                                                <option value="title" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='title') selected @endif>Tên</option>
+                                                <option value="price" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='price') selected @endif>Giá</option>
+                                                <option value="Category" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='Category') selected @endif>Danh mục</option>
+                                                <option value="brand" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='brand') selected @endif>Thương hiệu</option>
                                             </select>
                                         </div>
                                     </div>
@@ -199,7 +199,7 @@
                                     </div>
                                 @endforeach
                             @else
-                                    <h4 class="text-warning" style="margin:100px auto;">There are no products.</h4>
+                                    <h4 class="text-warning" style="margin:100px auto;">Không có sản phẩm phù hợp.</h4>
                             @endif
 
 
@@ -320,10 +320,10 @@
                                                     {{-- <div class="col-lg-6 col-12">
                                                         <h5 class="title">Color</h5>
                                                         <select>
-                                                            <option selected="selected">orange</option>
-                                                            <option>purple</option>
-                                                            <option>black</option>
-                                                            <option>pink</option>
+                                                            <option selected="selected">cam</option>
+                                                            <option>tím</option>
+                                                            <option>đen</option>
+                                                            <option>hồng</option>
                                                         </select>
                                                     </div> --}}
                                                 </div>

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title','E-SHOP || HOME PAGE')
+@section('title','E-SHOP || HOME')
 @section('main-content')
 <!-- Slider Area -->
 @if(count($banners)>0)
@@ -24,11 +24,11 @@
         </div>
         <a class="carousel-control-prev" href="#Gslider" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only">Quay lại</span>
         </a>
         <a class="carousel-control-next" href="#Gslider" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only">Tiếp tục</span>
         </a>
     </section>
 @endif
@@ -130,8 +130,8 @@
                                             </a>
                                             <div class="button-head">
                                                 <div class="product-action">
-                                                    <a data-toggle="modal" data-target="#{{$product->id}}" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
-                                                    <a title="Wishlist" href="{{route('add-to-wishlist',$product->slug)}}" ><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
+                                                    <a data-toggle="modal" data-target="#{{$product->id}}" title="Xem nhanh" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
+                                                    <a title="Yêu thích" href="{{route('add-to-wishlist',$product->slug)}}" ><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
                                                 </div>
                                                 <div class="product-action-2">
                                                     <a title="Thêm vào giỏ hàng" href="{{route('add-to-cart',$product->slug)}}">Thêm vào giỏ hàng</a>
@@ -224,8 +224,8 @@
                                 </a>
                                 <div class="button-head">
                                     <div class="product-action">
-                                        <a data-toggle="modal" data-target="#{{$product->id}}" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
-                                        <a title="Wishlist" href="{{route('add-to-wishlist',$product->slug)}}" ><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
+                                        <a data-toggle="modal" data-target="#{{$product->id}}" title="Xem nhanh" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
+                                        <a title="Yêu thích" href="{{route('add-to-wishlist',$product->slug)}}" ><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
                                     </div>
                                     <div class="product-action-2">
                                         <a href="{{route('add-to-cart',$product->slug)}}">Thêm vào giỏ hàng</a>
@@ -469,10 +469,10 @@
                                                     {{-- <div class="col-lg-6 col-12">
                                                         <h5 class="title">Color</h5>
                                                         <select>
-                                                            <option selected="selected">orange</option>
-                                                            <option>purple</option>
-                                                            <option>black</option>
-                                                            <option>pink</option>
+                                                            <option selected="selected">cam</option>
+                                                            <option>tím</option>
+                                                            <option>đen</option>
+                                                            <option>hồng</option>
                                                         </select>
                                                     </div> --}}
                                                 </div>

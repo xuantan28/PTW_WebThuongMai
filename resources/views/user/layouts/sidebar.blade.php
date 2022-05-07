@@ -37,7 +37,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{route('user.productreview.index')}}">
             <i class="fas fa-comments"></i>
-            <span>Các đánh giá</span></a>
+            <span>Các Review</span></a>
     </li>
     
 
@@ -52,7 +52,7 @@
     <li class="nav-item">
       <a class="nav-link" href="{{route('user.post-comment.index')}}">
           <i class="fas fa-comments fa-chart-area"></i>
-          <span>Các ý kiến</span>
+          <span>Các comment</span>
       </a>
     </li>
     <!-- Sidebar Toggler (Sidebar) -->

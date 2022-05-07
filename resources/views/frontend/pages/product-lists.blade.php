@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','E-SHOP || PRODUCT PAGE')
+@section('title','E-SHOP || SẢN PHẨM')
 
 @section('main-content')
 	
@@ -12,7 +12,7 @@
 						<div class="bread-inner">
 							<ul class="bread-list">
 								<li><a href="{{route('home')}}">Home<i class="ti-arrow-right"></i></a></li>
-								<li class="active"><a href="javascript:void(0);">Shop List</a></li>
+								<li class="active"><a href="javascript:void(0);">Shop list</a></li>
 							</ul>
 						</div>
 					</div>
@@ -30,7 +30,7 @@
 							<div class="shop-sidebar">
                                 <!-- Single Widget -->
                                 <div class="single-widget Category">
-                                    <h3 class="title">Categories</h3>
+                                    <h3 class="title">Danh mục</h3>
                                     <ul class="categor-list">
 										@php
 											// $Category = new Category();
@@ -63,13 +63,13 @@
                                 <!--/ End Single Widget -->
                                 <!-- Shop By Price -->
 								<div class="single-widget range">
-									<h3 class="title">Shop by Price</h3>
+									<h3 class="title">Mua theo giá</h3>
 									<div class="price-filter">
 										<div class="price-filter-inner">
 											{{-- <div id="slider-range" data-min="10" data-max="2000" data-currency="%"></div>
 												<div class="price_slider_amount">
 												<div class="label-input">
-													<span>Range:</span>
+													<span>Khoảng:</span>
 													<input type="text" id="amount" name="price_range" value='@if(!empty($_GET['price'])) {{$_GET['price']}} @endif' placeholder="Add Your Price"/>
 												</div>
 											</div> --}}
@@ -81,7 +81,7 @@
 											<div class="product_filter">
 											<button type="submit" class="filter_button">Filter</button>
 											<div class="label-input">
-												<span>Range:</span>
+												<span>Khoảng:</span>
 												<input style="" type="text" id="amount" readonly/>
 												<input type="hidden" name="price_range" id="price_range" value="@if(!empty($_GET['price'])){{$_GET['price']}}@endif"/>
 											</div>
@@ -103,7 +103,7 @@
 								<!--/ End Shop By Price -->
                                 <!-- Single Widget -->
                                 <div class="single-widget recent-post">
-                                    <h3 class="title">Recent post</h3>
+                                    <h3 class="title">Bài viết gần đây</h3>
                                     {{-- {{dd($recent_products)}} --}}
                                     @foreach($recent_products as $product)
                                         <!-- Single Post -->
@@ -128,7 +128,7 @@
                                 <!--/ End Single Widget -->
                                 <!-- Single Widget -->
                                 <div class="single-widget Category">
-                                    <h3 class="title">Brands</h3>
+                                    <h3 class="title">Thương hiệu</h3>
                                     <ul class="categor-list">
                                         @php
                                             $brands=DB::table('brands')->orderBy('title','ASC')->where('status','active')->get();
@@ -148,7 +148,7 @@
 									<div class="shop-top">
 										<div class="shop-shorter">
 											<div class="single-shorter">
-												<label>Show :</label>
+												<label>Xem :</label>
 												<select class="show" name="show" onchange="this.form.submit();">
 													<option value="">Default</option>
 													<option value="9" @if(!empty($_GET['show']) && $_GET['show']=='9') selected @endif>09</option>
@@ -161,10 +161,10 @@
 												<label>Sort By :</label>
 												<select class='sortBy' name='sortBy' onchange="this.form.submit();">
 													<option value="">Default</option>
-													<option value="title" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='title') selected @endif>Name</option>
-													<option value="price" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='price') selected @endif>Price</option>
-													<option value="Category" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='Category') selected @endif>Category</option>
-													<option value="brand" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='brand') selected @endif>Brand</option>
+													<option value="title" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='title') selected @endif>Tên</option>
+													<option value="price" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='price') selected @endif>Giá</option>
+													<option value="Category" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='Category') selected @endif>Danh mục</option>
+													<option value="brand" @if(!empty($_GET['sortBy']) && $_GET['sortBy']=='brand') selected @endif>Thương hiệu</option>
 												</select>
 											</div>
 										</div>
@@ -227,7 +227,7 @@
 										<!-- End Single List -->
 									@endforeach
 								@else
-									<h4 class="text-warning" style="margin:100px auto;">There are no products.</h4>
+									<h4 class="text-warning" style="margin:100px auto;">Không có sản phẩm phù hợp.</h4>
 								@endif
 							</div>
 							 <div class="row">

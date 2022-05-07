@@ -13,7 +13,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Nữ Hot</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -39,7 +39,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                        <h3><a href="product-details.html">Trình Diễn Tuyệt Vời</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -92,7 +92,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Quần Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -118,7 +118,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -145,7 +145,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Mũ Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -171,7 +171,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                        <h3><a href="product-details.html">Váy Polo Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -198,7 +198,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                        <h3><a href="product-details.html">Kính Chống Nắng Nữ</a></h3>
                         <div class="product-price">
                             <span class="old">$60.00</span>
                             <span>$50.00</span>
@@ -233,7 +233,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -259,7 +259,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -267,7 +267,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                        <h3><a href="product-details.html">Trình Diễn Tuyệt Vời</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -285,7 +285,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -293,7 +293,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -312,7 +312,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -320,7 +320,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Quần Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -338,7 +338,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -346,7 +346,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -365,7 +365,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -373,7 +373,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Mũ Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -391,7 +391,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -399,7 +399,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                        <h3><a href="product-details.html">Váy Polo Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -418,7 +418,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -426,7 +426,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                        <h3><a href="product-details.html">Kính Chống Nắng Nữ</a></h3>
                         <div class="product-price">
                             <span class="old">$60.00</span>
                             <span>$50.00</span>
@@ -453,7 +453,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -461,7 +461,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -479,7 +479,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -487,7 +487,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                        <h3><a href="product-details.html">Trình Diễn Tuyệt Vời</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -505,7 +505,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -513,7 +513,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -532,7 +532,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -540,7 +540,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Quần Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -558,7 +558,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -566,7 +566,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -585,7 +585,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -593,7 +593,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Mũ Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -611,7 +611,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -619,7 +619,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                        <h3><a href="product-details.html">Váy Polo Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -638,7 +638,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -646,7 +646,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                        <h3><a href="product-details.html">Kính Chống Nắng Nữ</a></h3>
                         <div class="product-price">
                             <span class="old">$60.00</span>
                             <span>$50.00</span>
@@ -673,7 +673,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -681,7 +681,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -699,7 +699,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -707,7 +707,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                        <h3><a href="product-details.html">Trình Diễn Tuyệt Vời</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -725,7 +725,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -733,7 +733,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -752,7 +752,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -760,7 +760,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Quần Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -778,7 +778,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -786,7 +786,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -805,7 +805,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -813,7 +813,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Mũ Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -831,7 +831,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -839,7 +839,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                        <h3><a href="product-details.html">Váy Polo Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -858,7 +858,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -866,7 +866,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                        <h3><a href="product-details.html">Kính Chống Nắng Nữ</a></h3>
                         <div class="product-price">
                             <span class="old">$60.00</span>
                             <span>$50.00</span>
@@ -893,7 +893,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -901,7 +901,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -919,7 +919,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -927,7 +927,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                        <h3><a href="product-details.html">Trình Diễn Tuyệt Vời</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -945,7 +945,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -953,7 +953,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -972,7 +972,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -980,7 +980,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Women Pant Collectons</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Quần Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -998,7 +998,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -1006,7 +1006,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Túi Xách</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -1025,7 +1025,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -1033,7 +1033,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Awesome Cap For Women</a></h3>
+                        <h3><a href="product-details.html">Bộ Sưu Tập Mũ Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -1051,7 +1051,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -1059,7 +1059,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Polo Dress For Women</a></h3>
+                        <h3><a href="product-details.html">Váy Polo Nữ</a></h3>
                         <div class="product-price">
                             <span>$29.00</span>
                         </div>
@@ -1078,7 +1078,7 @@
                             <div class="product-action">
                                 <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Xem nhanh</span></a>
                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Thêm vào danh sách yêu thích</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Thêm vào so sánh</span></a>
                             </div>
                             <div class="product-action-2">
                                 <a title="Thêm vào giỏ hàng" href="#">Thêm vào giỏ hàng</a>
@@ -1086,7 +1086,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+                        <h3><a href="product-details.html">Kính Chống Nắng Nữ</a></h3>
                         <div class="product-price">
                             <span class="old">$60.00</span>
                             <span>$50.00</span>

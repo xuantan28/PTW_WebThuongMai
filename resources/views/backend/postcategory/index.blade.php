@@ -9,8 +9,8 @@
          </div>
      </div>
     <div class="card-header py-3">
-      <h6 class="m-0 font-weight-bold text-primary float-left">Post Category Lists</h6>
-      <a href="{{route('post-Category.create')}}" class="btn btn-primary btn-sm float-right" data-toggle="tooltip" data-placement="bottom" title="Add User"><i class="fas fa-plus"></i> Add Post Category</a>
+      <h6 class="m-0 font-weight-bold text-primary float-left">Danh sách danh mục bài viết</h6>
+      <a href="{{route('post-Category.create')}}" class="btn btn-primary btn-sm float-right" data-toggle="tooltip" data-placement="bottom" title="Add User"><i class="fas fa-plus"></i> Thêm danh mục bài viết</a>
     </div>
     <div class="card-body">
       <div class="table-responsive">
@@ -18,20 +18,20 @@
         <table class="table table-bordered" id="post-Category-dataTable" width="100%" cellspacing="0">
           <thead>
             <tr>
-              <th>S.N.</th>
-              <th>Title</th>
+              <th>STT</th>
+              <th>Tiêu đề</th>
               <th>Slug</th>
-              <th>Status</th>
-              <th>Action</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
             </tr>
           </thead>
           <tfoot>
             <tr>
-              <th>S.N.</th>
-              <th>Title</th>
+              <th>STT</th>
+              <th>Tiêu đề</th>
               <th>Slug</th>
-              <th>Status</th>
-              <th>Action</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
               </tr>
           </tfoot>
           <tbody>
@@ -52,7 +52,7 @@
                     <form method="POST" action="{{route('post-Category.destroy',[$data->id])}}">
                       @csrf 
                       @method('delete')
-                          <button class="btn btn-danger btn-sm dltBtn" data-id={{$data->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fas fa-trash-alt"></i></button>
+                          <button class="btn btn-danger btn-sm dltBtn" data-id={{$data->id}} style="height:30px; width:30px;border-radius:50%" data-toggle="tooltip" data-placement="bottom" title="Xoá"><i class="fas fa-trash-alt"></i></button>
                         </form>
                     </td>
                     {{-- Delete Modal --}}
@@ -60,7 +60,7 @@
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="#delModal{{$user->id}}Label">Delete user</h5>
+                              <h5 class="modal-title" id="#delModal{{$user->id}}Label">Xoá người dùng</h5>
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                               </button>
@@ -69,7 +69,7 @@
                               <form method="post" action="{{ route('banners.destroy',$user->id) }}">
                                 @csrf 
                                 @method('delete')
-                                <button type="submit" class="btn btn-danger" style="margin:auto; text-align:center">Parmanent delete user</button>
+                                <button type="submit" class="btn btn-danger" style="margin:auto; text-align:center">Xoá vĩnh viễn người dùng</button>
                               </form>
                             </div>
                           </div>
@@ -81,7 +81,7 @@
         </table>
         <span style="float:right">{{$postCategories->links()}}</span>
         @else
-          <h6 class="text-center">No Post Category found!!! Please create post Category</h6>
+          <h6 class="text-center">Không tìm thấy danh mục bài viết!!! Hãy tạo thêm danh mục bài viết</h6>
         @endif
       </div>
     </div>
@@ -137,9 +137,9 @@
               // alert(dataID);
               e.preventDefault();
               swal({
-                    title: "Are you sure?",
-                    text: "Once deleted, you will not be able to recover this data!",
-                    icon: "warning",
+                    title: "Bạn có chắc không?",
+                    text: "Một khi xoá, bạn sẽ không thể hồi phục lại dữ liệu này!",
+                    icon: "Cảnh báo",
                     buttons: true,
                     dangerMode: true,
                 })
@@ -147,7 +147,7 @@
                     if (willDelete) {
                        form.submit();
                     } else {
-                        swal("Your data is safe!");
+                        swal("Dữ liệu của bạn đã an toàn!");
                     }
                 });
           })

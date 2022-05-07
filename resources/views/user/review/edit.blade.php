@@ -1,16 +1,16 @@
 @extends('user.layouts.master')
 
-@section('title','Review Edit')
+@section('title','Chỉnh sửa Review')
 
 @section('main-content')
 <div class="card">
-  <h5 class="card-header">Review Edit</h5>
+  <h5 class="card-header">Chỉnh sửa Review</h5>
   <div class="card-body">
     <form action="{{route('user.productreview.update',$review->id)}}" method="POST">
       @csrf
       @method('PATCH')
       <div class="form-group">
-        <label for="name">Review By:</label>
+        <label for="name">Review Bởi:</label>
         <input type="text" disabled class="form-control" value="{{$review->user_info->name}}">
       </div>
       <div class="form-group">
@@ -18,14 +18,14 @@
       <textarea name="review" id="" cols="20" rows="10" class="form-control">{{$review->review}}</textarea>
       </div>
       <div class="form-group">
-        <label for="status">Status :</label>
+        <label for="status">Trạng thái :</label>
         <select name="status" id="" class="form-control">
-          <option value="">--Select Status--</option>
+          <option value="">--Chọn trạng thái--</option>
           <option value="active" {{(($review->status=='active')? 'selected' : '')}}>Active</option>
           <option value="inactive" {{(($review->status=='inactive')? 'selected' : '')}}>Inactive</option>
         </select>
       </div>
-      <button type="submit" class="btn btn-primary">Update</button>
+      <button type="submit" class="btn btn-primary">Cập nhật</button>
     </form>
   </div>
 </div>

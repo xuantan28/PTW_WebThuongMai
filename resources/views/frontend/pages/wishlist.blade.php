@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title','Wishlist Page')
+@section('title','Yêu thích')
 @section('main-content')
 	<!-- Breadcrumbs -->
 	<div class="breadcrumbs">
@@ -9,7 +9,7 @@
 					<div class="bread-inner">
 						<ul class="bread-list">
 							<li><a href="{{('home')}}">Home<i class="ti-arrow-right"></i></a></li>
-							<li class="active"><a href="javascript:void(0);">Wishlist</a></li>
+							<li class="active"><a href="javascript:void(0);">Yêu thích</a></li>
 						</ul>
 					</div>
 				</div>
@@ -27,9 +27,9 @@
 					<table class="table shopping-summery">
 						<thead>
 							<tr class="main-hading">
-								<th>PRODUCT</th>
-								<th>NAME</th>
-								<th class="text-center">TOTAL</th> 
+								<th>SẢN PHẨM</th>
+								<th>TÊN</th>
+								<th class="text-center">TỔNG</th> 
 								<th class="text-center">Thêm vào giỏ hàng</th> 
 								<th class="text-center"><i class="ti-trash remove-icon"></i></th>
 							</tr>
@@ -54,7 +54,7 @@
 							@else 
 								<tr>
 									<td class="text-center">
-										There are no any wishlist available. <a href="{{route('product-grids')}}" style="color:blue;">Continue shopping</a>
+										Không có bất kỳ danh sách yêu thích nào có sẵn. <a href="{{route('product-grids')}}" style="color:blue;">Tiếp tục mua sắm</a>
 
 									</td>
 								</tr>
@@ -160,7 +160,7 @@
                                                 <i class="yellow fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                             </div>
-                                            <a href="#"> (1 customer review)</a>
+                                            <a href="#"> (1 review)</a>
                                         </div>
                                         <div class="quickview-stock">
                                             <span><i class="fa fa-check-circle-o"></i> in stock</span>
@@ -184,10 +184,10 @@
 											<div class="col-lg-6 col-12">
 												<h5 class="title">Color</h5>
 												<select>
-													<option selected="selected">orange</option>
-													<option>purple</option>
-													<option>black</option>
-													<option>pink</option>
+													<option selected="selected">cam</option>
+													<option>tím</option>
+													<option>đen</option>
+													<option>vàng</option>
 												</select>
 											</div>
 										</div>
@@ -215,7 +215,7 @@
 										<a href="#" class="btn min"><i class="fa fa-compress"></i></a>
 									</div>
                                     <div class="default-social">
-										<h4 class="share-now">Share:</h4>
+										<h4 class="share-now">Chia sẻ:</h4>
                                         <ul>
                                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                                             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>

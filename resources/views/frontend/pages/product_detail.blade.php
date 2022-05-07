@@ -14,7 +14,7 @@
 	<meta property="og:image" content="{{$product_detail->photo}}">
 	<meta property="og:description" content="{{$product_detail->description}}">
 @endsection
-@section('title','E-SHOP || PRODUCT DETAIL')
+@section('title','E-SHOP || CHI TIẾT SẢN PHẨM')
 @section('main-content')
 
 		<!-- Breadcrumbs -->
@@ -25,7 +25,7 @@
 						<div class="bread-inner">
 							<ul class="bread-list">
 								<li><a href="{{route('home')}}">Home<i class="ti-arrow-right"></i></a></li>
-								<li class="active"><a href="">Shop Details</a></li>
+								<li class="active"><a href="">Chi tiết shop</a></li>
 							</ul>
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 											<!--/ End Description -->
 											<!-- Color -->
 											{{-- <div class="color">
-												<h4>Available Options <span>Color</span></h4>
+												<h4>Tùy chọn có sẵn <span>Màu sắc</span></h4>
 												<ul>
 													<li><a href="#" class="one"><i class="ti-check"></i></a></li>
 													<li><a href="#" class="two"><i class="ti-check"></i></a></li>
@@ -120,7 +120,7 @@
 												<form action="{{route('single-add-to-cart')}}" method="POST">
 													@csrf 
 													<div class="quantity">
-														<h6>Quantity :</h6>
+														<h6>Số lượng :</h6>
 														<!-- Input Order -->
 														<div class="input-group">
 															<div class="button minus">
@@ -144,9 +144,9 @@
 													</div>
 												</form>
 
-												<p class="cat">Category :<a href="{{route('product-cat',$product_detail->cat_info['slug'])}}">{{$product_detail->cat_info['title']}}</a></p>
+												<p class="cat">Danh mục :<a href="{{route('product-cat',$product_detail->cat_info['slug'])}}">{{$product_detail->cat_info['title']}}</a></p>
 												@if($product_detail->sub_cat_info)
-												<p class="cat mt-1">Sub Category :<a href="{{route('product-sub-cat',[$product_detail->cat_info['slug'],$product_detail->sub_cat_info['slug']])}}">{{$product_detail->sub_cat_info['title']}}</a></p>
+												<p class="cat mt-1">Danh mục phụ :<a href="{{route('product-sub-cat',[$product_detail->cat_info['slug'],$product_detail->sub_cat_info['slug']])}}">{{$product_detail->sub_cat_info['title']}}</a></p>
 												@endif
 												<p class="availability">Stock : @if($product_detail->stock>0)<span class="badge badge-success">{{$product_detail->stock}}</span>@else <span class="badge badge-danger">{{$product_detail->stock}}</span>  @endif</p>
 											</div>
@@ -160,7 +160,7 @@
 											<div class="nav-main">
 												<!-- Tab Nav -->
 												<ul class="nav nav-tabs" id="myTab" role="tablist">
-													<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a></li>
+													<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#description" role="tab">Mô tả</a></li>
 													<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Reviews</a></li>
 												</ul>
 												<!--/ End Tab Nav -->
@@ -188,10 +188,10 @@
 																<!-- Review -->
 																<div class="comment-review">
 																	<div class="add-review">
-																		<h5>Add A Review</h5>
-																		<p>Your email address will not be published. Required fields are marked</p>
+																		<h5>Thêm Review</h5>
+																		<p>Địa chỉ email của bạn sẽ không được công bố. Các trường bắt buộc được đánh dấu</p>
 																	</div>
-																	<h4>Your Rating <span class="text-danger">*</span></h4>
+																	<h4>Rating của bạn<span class="text-danger">*</span></h4>
 																	<div class="review-inner">
 																			<!-- Form -->
 																@auth
@@ -221,20 +221,20 @@
                                                                         </div>
 																		<div class="col-lg-12 col-12">
 																			<div class="form-group">
-																				<label>Write a review</label>
+																				<label>Viết review</label>
 																				<textarea name="review" rows="6" placeholder="" ></textarea>
 																			</div>
 																		</div>
 																		<div class="col-lg-12 col-12">
 																			<div class="form-group button5">	
-																				<button type="submit" class="btn">Submit</button>
+																				<button type="submit" class="btn">OK</button>
 																			</div>
 																		</div>
 																	</div>
 																</form>
 																@else 
 																<p class="text-center p-5">
-																	You need to <a href="{{route('login.form')}}" style="color:rgb(54, 54, 204)">Login</a> OR <a style="color:blue" href="{{route('register.form')}}">Register</a>
+																	Bạn cần <a href="{{route('login.form')}}" style="color:rgb(54, 54, 204)">Đăng nhập</a> hoặc <a style="color:blue" href="{{route('register.form')}}">Đăng ký</a>
 
 																</p>
 																<!--/ End Form -->

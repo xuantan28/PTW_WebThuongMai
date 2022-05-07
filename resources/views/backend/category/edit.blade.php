@@ -3,13 +3,13 @@
 @section('main-content')
 
 <div class="card">
-    <h5 class="card-header">Edit Category</h5>
+    <h5 class="card-header">Chỉnh sửa danh mục</h5>
     <div class="card-body">
       <form method="post" action="{{route('Category.update',$Category->id)}}">
         @csrf 
         @method('PATCH')
         <div class="form-group">
-          <label for="inputTitle" class="col-form-label">Title <span class="text-danger">*</span></label>
+          <label for="inputTitle" class="col-form-label">Tiêu đề <span class="text-danger">*</span></label>
           <input id="inputTitle" type="text" name="title" placeholder="Nhập tiêu đề"  value="{{$Category->title}}" class="form-control">
           @error('title')
           <span class="text-danger">{{$message}}</span>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="form-group">
-          <label for="summary" class="col-form-label">Summary</label>
+          <label for="summary" class="col-form-label">Tổng quan</label>
           <textarea class="form-control" id="summary" name="summary">{{$Category->summary}}</textarea>
           @error('summary')
           <span class="text-danger">{{$message}}</span>
@@ -25,16 +25,16 @@
         </div>
 
         <div class="form-group">
-          <label for="is_parent">Is Parent</label><br>
-          <input type="checkbox" name='is_parent' id='is_parent' value='{{$Category->is_parent}}' {{(($Category->is_parent==1)? 'checked' : '')}}> Yes                        
+          <label for="is_parent">Là Parent</label><br>
+          <input type="checkbox" name='is_parent' id='is_parent' value='{{$Category->is_parent}}' {{(($Category->is_parent==1)? 'checked' : '')}}> Có                        
         </div>
         {{-- {{$parent_cats}} --}}
         {{-- {{$Category}} --}}
 
       <div class="form-group {{(($Category->is_parent==1) ? 'd-none' : '')}}" id='parent_cat_div'>
-          <label for="parent_id">Parent Category</label>
+          <label for="parent_id">Danh mục Parent</label>
           <select name="parent_id" class="form-control">
-              <option value="">--Select any Category--</option>
+              <option value="">--Chọn danh mục--</option>
               @foreach($parent_cats as $key=>$parent_cat)
               
                   <option value='{{$parent_cat->id}}' {{(($parent_cat->id==$Category->parent_id) ? 'selected' : '')}}>{{$parent_cat->title}}</option>
@@ -47,7 +47,7 @@
           <div class="input-group">
               <span class="input-group-btn">
                   <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary">
-                  <i class="fa fa-picture-o"></i> Choose
+                  <i class="fa fa-picture-o"></i> Chọn
                   </a>
               </span>
           <input id="thumbnail" class="form-control" type="text" name="photo" value="{{$Category->photo}}">
@@ -59,7 +59,7 @@
         </div>
         
         <div class="form-group">
-          <label for="status" class="col-form-label">Status <span class="text-danger">*</span></label>
+          <label for="status" class="col-form-label">Trạng thái <span class="text-danger">*</span></label>
           <select name="status" class="form-control">
               <option value="active" {{(($Category->status=='active')? 'selected' : '')}}>Active</option>
               <option value="inactive" {{(($Category->status=='inactive')? 'selected' : '')}}>Inactive</option>
@@ -69,7 +69,7 @@
           @enderror
         </div>
         <div class="form-group mb-3">
-           <button class="btn btn-success" type="submit">Update</button>
+           <button class="btn btn-success" type="submit">Cập nhật</button>
         </div>
       </form>
     </div>

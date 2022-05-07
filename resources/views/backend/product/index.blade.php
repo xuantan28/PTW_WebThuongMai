@@ -30,7 +30,7 @@
               <th>Stock</th>
               <th>Hình ảnh</th>
               <th>Trạng thái</th>
-              <th>Hoạt động</th>
+              <th>Hành động</th>
             </tr>
           </thead>
           <tfoot>
@@ -47,7 +47,7 @@
               <th>Stock</th>
               <th>Hình ảnh</th>
               <th>Trạng thái</th>
-              <th>Hoạt động</th>
+              <th>Hành động</th>
             </tr>
           </tfoot>
           <tbody>
@@ -111,7 +111,7 @@
         </table>
         <span style="float:right">{{$products->links()}}</span>
         @else
-          <h6 class="text-center">No Products found!!! Please create Product</h6>
+          <h6 class="text-center">Không tìm thấy sản phẩm!!! Hãy tạo thêm sản phẩm</h6>
         @endif
       </div>
     </div>
@@ -175,9 +175,9 @@
               // alert(dataID);
               e.preventDefault();
               swal({
-                    title: "Are you sure?",
-                    text: "Once deleted, you will not be able to recover this data!",
-                    icon: "warning",
+                    title: "Bạn có chắc không?",
+                    text: "Một khi xoá, bạn sẽ không thể hồi phục lại dữ liệu này!",
+                    icon: "Cảnh báo",
                     buttons: true,
                     dangerMode: true,
                 })
@@ -185,7 +185,7 @@
                     if (willDelete) {
                        form.submit();
                     } else {
-                        swal("Your data is safe!");
+                        swal("Dữ liệu của bạn đã an toàn!");
                     }
                 });
           })
